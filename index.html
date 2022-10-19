@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <style>
-    div#intro{
-        background-color: rgb(163, 143, 116);
+    div#intro {
+        height: 600px;
+        background-color: red;
+
+        background-image: linear-gradient(to right, blue, pink);
+
+
         text-align: center;
+    }
+
+    h1.normal {
+        font-style: italic;
+    }
+
+    .click {
+        background-color: #008CBA;
+        text-align: center;
+        display: inline;
+
     }
 </style>
 <html>
-    <head><title>My Portfolio</title>
+
+<head>
+    <title>My Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-    <body>
-        <div id="intro">
-            <h2>Hello there,</h2>
-        <h1>This is <strong>Anupama</strong></h1>
-        <h3>Welcome to my page \(^o^)/</h3>
-        </div>
+
+<body>
+    <div id="intro">
+        <h2>Hello there,</h2>
+        <h1 class="normal">This is <strong>Anupama</strong></h1>
+        <h3>Welcome to my page </h3>
+
         <div>
             <h3>
-                Know more about me!
-
+                know more about me!
             </h3>
-            <a href="/project-2/project.html"> Click here to checkout my project</a>
+
+            <div>
+                <a href="project.html">
+                    <button class="click">Click here to checkout my project</button>
+                </a>
+            </div>
         </div>
-        
-    </body>
+</body>
+
 </html>
